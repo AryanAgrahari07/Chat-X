@@ -1,0 +1,120 @@
+body{
+    background-image: url("./images/wall.gif");
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+    background-position: right;
+    background-repeat: initial;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.formContainer{
+    border: 2px solid gray ;
+    border-radius: 10px;
+    /* margin: 10px 10px 10px 10px; */
+    width: 20pc;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 18px;
+    background-color: whitesmoke;
+    font-size: larger;
+
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+}
+.logo{
+    margin-bottom: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.title{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 19pc;
+}
+.fillitem{
+    /* background-color: rgba(225, 225, 225, 0.9); */
+    /* background-color: whitesmoke; */
+    border: none;
+    margin: 6px;
+    padding: 6px;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+}
+.btn{
+    margin: 6px ;
+    padding: 5px;
+}
+.label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 10px; */
+}
+.ava{
+    width: 2pc;
+    /* margin-right: 15px */
+}
+
+
+
+
+@media only screen and (max-width: 500px ) {
+    
+    .formContainer{
+        border: 2px solid gray ;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 25%;
+        padding: 20px;
+        width: 18pc;
+        font-size: medium;
+    }
+    .title{
+        font-size: large;
+    }
+    .logo{
+        font-size: x-large;
+    }
+    .forms{
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+        font-size: large;
+    }
+  }
+
+
+@media only screen and (max-width: 400px ) {
+    .formContainer{
+        width: 15pc;
+        padding: 20px;
+        font-size: medium;
+    }
+   .forms{
+        font-size: large;
+    }
+    .logo{
+        font-size: x-large;
+    }
+  }
+@media only screen and (max-width: 340px ) {
+    .formContainer{
+        width: 13pc;
+        font-size: medium;
+    }
+    .logo{
+        font-size: x-large;
+    }
+  }
